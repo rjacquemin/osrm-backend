@@ -9,6 +9,11 @@
     - paramater `annotate` was renamed to `annotations`.
     - `annotation` as accidentally placed in `Route` instead of `RouteLeg`
 
+   - API:
+     - Support for destination signs. New member `destinations` in `RouteStep`, based on `destination` and `destination:ref`.
+   - Profile changes:
+     - `result.destinations` allows you to set a way's destinations
+
 # 5.2.0 RC1
    Changes from 5.1.0
 
